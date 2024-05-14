@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
 
 .logo {
   margin: 15px;
+ 
 }
 
 
@@ -30,8 +32,10 @@ hr  {
   color: var(--black);
 }
 
+header .navigationBar a:hover{
 
-
+color: var(--main-color);
+}
 
 .menuItems {
   display: flex;
@@ -69,23 +73,33 @@ margin-left: 20px; */
   justify-content: center;
   flex-direction: column;
   min-height: 80vh;
-  align-items: flex-start;
+  align-items: center;
+
 }
 
 .fresh h1 {
   color: white;
   text-transform: uppercase;
-  text-align: left;
-}
-.fresh p {
-  color: white;
+  text-align: center;
+font-size: 4rem;
 
-  text-align: left;
+}
+
+.fresh p {
+  color: #ccc;
+  text-align: center;
+padding: 1rem 0;
+font-weight: lighter;
+
+
+
 }
 
 .getYoursButton {
   background-color: var(--main-color);
   padding: 10px;
+  font-size: 17px;
+  /* display: inline-block; */
 }
 
 .getYoursButton a {
@@ -94,52 +108,112 @@ margin-left: 20px; */
   text-align: center;
 }
 
+
+
+
+
 .aboutUsContent{
 
-  background-color: var(--black);
+background-color: var(--black);
 height: 80%;
 
 
 }
-.aboutUsContainer {
+
+
+.aboutUs .row {
+  background: var(--black);
   color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
+
 }
 
-span {
+.aboutUs .heading .spanAbout {
   color: var(--main-color);
+  text-transform: uppercase;
+
 }
 
-.aboutUsHeader {
+ .aboutUs.aboutUs h1 {
   text-transform: uppercase;
   padding: 30px;
-  font-size: 50px;
+  font-size: 4rem;
+  text-align: center;
+color: white;
 }
 
-.aboutUsImage{
+.aboutUs .row .aboutUsContent h3{
+font-size: 3rem;
+color: white;
 
-background-image: url(images/about-img.jpeg);
-height: 250px;
-width: 500px;
+}
+
+.aboutUs .row .aboutUsContent p{
+color: #ccc;
+padding: 1rem;
+font-size: 3rem 0;
+
+}
+
+
+
+.aboutUsImage img{
+
+
+width: 100%;
 background-position: center;
 background-repeat: no-repeat;
 align-items: flex-start;
-}
-
-.textHeader{
-
-padding: 20px;
-
 
 }
-.aboutUsText{
-padding: 10px;
 
 
+
+
+.btn {
+  background-color: var(--main-color);
+  padding: 10px;
+  font-size: 17px;
+color: white;
+text-align: center;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+
+
+.menu .cardContainer{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(30rem, 1 fr));
+gap: 2rem;
+}
+
+.menu .cardContainer .card{
+padding: 5rem;
+text-align: center;
+border: var(--border);
+
+}
+
+
+.menu .cardContainer .card img{
+
+height: 5rem;
+
+}
+
+.menu .cardContainer .card h3{
+color: white;
+font-size: 1.5rem;
+padding: 1rem 0;
+
+}
+
+.menu .cardContainer .card .price{
+
+  
 }
 
 
