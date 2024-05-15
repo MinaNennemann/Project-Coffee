@@ -18,7 +18,7 @@
 body {
   background: var(--bg);
   background-image: url(images/home-img.jpeg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -81,7 +81,7 @@ margin-left: 20px; */
   color: white;
   text-transform: uppercase;
   text-align: center;
-font-size: 4rem;
+font-size: 2.5rem;
 
 }
 
@@ -140,7 +140,7 @@ height: 80%;
  .aboutUs.aboutUs h1 {
   text-transform: uppercase;
   padding: 30px;
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-align: center;
 color: white;
 }
@@ -174,12 +174,13 @@ align-items: flex-start;
 
 
 .btn {
+  margin-top: 1rem;
   background-color: var(--main-color);
   padding: 10px;
   font-size: 17px;
 color: white;
 text-align: center;
-margin-top: 1rem;
+
 margin-left: 1rem;
 }
 
@@ -191,7 +192,7 @@ gap: 2rem;
 }
 
 .menu .cardContainer .card{
-padding: 5rem;
+padding: 2rem;
 text-align: center;
 border: var(--border);
 
@@ -200,7 +201,7 @@ border: var(--border);
 
 .menu .cardContainer .card img{
 
-height: 5rem;
+height: 3rem;
 
 }
 
@@ -212,10 +213,21 @@ padding: 1rem 0;
 }
 
 .menu .cardContainer .card .price{
+color: white;
+font-size: 1rem;
+padding: 1.5rem 0;
 
-  
 }
+.menu .cardContainer .card a{
 
+  background-color: var(--main-color);
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+
+
+
+}
 
 
 
