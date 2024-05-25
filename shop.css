@@ -182,15 +182,27 @@ align-items: flex-start;
   font-size: 17px;
 color: white;
 text-align: center;
-
 margin-left: 1rem;
+}
+
+.menu h1{
+color: white;  
+margin-top: 2rem;
+margin-bottom: 1rem;
+text-align: center;
+font-size: 2.5rem;
+
+}
+
+.menu h1 span{
+  color: var(--main-color);
 }
 
 
 .menu .cardContainer{
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(30rem, 1 fr));
-gap: 2rem;
+gap: 1.5rem;
 }
 
 .menu .cardContainer .card{
@@ -246,6 +258,17 @@ background: white ;
 .menu .cardContainer .card:hover > * {
   color: var(--black);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 700px) {
